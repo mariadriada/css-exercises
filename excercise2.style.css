@@ -5,6 +5,10 @@
   background-color: #9cfcf0;
 }
 
+body {
+  overflow: hidden;
+}
+
 .platform1,
 .platform2 {
   display: flex;
@@ -13,6 +17,7 @@
 
 .platform1 {
   top: 70%;
+  left: 2px;
 }
 
 .platform2 {
@@ -41,13 +46,13 @@
 
 .obstacle1 {
   height: 200px;
-  background: linear-gradient(0.25turn, #fbbdb0 95%, #ef9b58);
+  background: linear-gradient(0.25turn, #fbbdb0 93%, #ef9b58);
   left: 15%;
 }
 
 .obstacle2 {
   height: 350px;
-  background: linear-gradient(0.25turn, #a8e4fe 95%, #56bceb);
+  background: linear-gradient(0.25turn, #a8e4fe 93%, #56bceb);
   left: 22%;
 }
 
