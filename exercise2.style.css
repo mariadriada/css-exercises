@@ -1,10 +1,14 @@
 #container {
     background-color: #69F9EC;
     margin: 0;
-    width: 98vw;
+    width: 100%;
     height: 95vh;
     border: 2px grey solid;
     Overflow: Hidden;
+    background-image: url("resources/exercise2/supermario.png");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: 59% 5%;
 }
 .stair{
     display: flex;
@@ -66,7 +70,7 @@
     height: 15rem;
     background-color: #60DD17;
     display: flex;
-    margin: 314px 1347px;
+    margin: 314px 1360px;
     border: 2px solid black;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -91,7 +95,7 @@
     margin: 3px;
 }
 .rightBottom{
-    margin: 371px 0px 0px 210px;
+    margin: 353px 0px 0px 210px;
 }
 .circle-rightBottom{
     width: 20px;
@@ -102,10 +106,10 @@
     background: #69F9EC;
     border: 3px solid black;
     position: absolute;
-    margin: 212px 0px 0px 210px;
+    margin:193px 0px 0px 210px;
 }
 .leftBottom{
-    margin: 212px 0px 0px 3px;
+    margin: 193px 0px 0px 3px;
 }
 .line{
 
