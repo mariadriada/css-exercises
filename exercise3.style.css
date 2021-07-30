@@ -1,0 +1,115 @@
+.main-section{
+    background-color: #F4AEAC;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/resources/exercise3/mario.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 75% -30px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 10vh;
+    align-items: center;
+}
+header img{
+    width: 200px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header ul li{
+    margin-left: 15px;
+    cursor: pointer;
+}
+ul li i{
+    border-right: 1px solid black;
+    padding-right: 10px;
+    cursor: pointer;
+}
+li:last-child i{
+    border-right: none;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 25px;
+}
+.containt{
+    height: 90vh ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.containt span{
+    font-size: 14px;
+}
+.containt h3{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.containt h1{
+    font-size: 60px;
+}
+
+.containt p{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.containt button{
+    border: none;
+    padding: 12px 40px;
+    cursor: pointer;
+}
+.portfolio-section{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+}
+.portfolio-section > .middle{
+    height: 100%;
+}
+.middle{
+    width: 50%;
+    border: 1px solid black;
+    height: 50%;
+
+}
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#card1{
+    background-color: #C3997D;
+    background-image: url(/resources/exercise3/silueta.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 70% 0;
+}
+.line{
+    background-color: #fff;
+    height: 3px;
+    width: 50px;
+    margin: 15px 15px 15px 0;
+    border-radius: 2px;
+}
+
+.text-card1{
+    border: 1px solid black;
+    position: relative;
+    top: 70%;
+    padding-left: 30px;
+    color: #fff;
+}
+
+.text-card1 h4{
+    width: 100px;
+}
