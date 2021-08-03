@@ -56,23 +56,37 @@ body{
 }
 .s1{
     margin: 5px;
+    display: flex;
+    align-items: center;
 }
 .s2{
     position: absolute;
     right: 5px;
     top: 5px;
+    display: flex;
+    align-items: center;
 }
 .s3{
     position: absolute;
     left: 5px;
     bottom: 5px;
+    display: flex;
+    align-items: center;
 }
 .s4{
     position: absolute;
     right: 5px;
     bottom: 5px;
+    display: flex;
+    align-items: center;
 }
-
+.diagonal{
+    border: 2px solid black;
+    transform: rotate(-40deg);
+    display: flex;
+    align-items: center;
+    width: 30px;
+}
 .box4{
     width: 150px;
     height: 60px;
