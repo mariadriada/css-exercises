@@ -103,13 +103,56 @@ nav ul li{
 }
 
 .text-card1{
-    border: 1px solid black;
     position: relative;
     top: 70%;
     padding-left: 30px;
     color: #fff;
+
 }
 
 .text-card1 h4{
-    width: 100px;
+    width: 170px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#women{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#women h3{
+    font-size:25px;
+    padding-bottom: 12%;
+}
+#women button{
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 15px 50px;
+}
+#model{
+    background-color: yellow;
+    background-image: url(/resources/exercise3/yoshi.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: 100% 0;
+}
+#shoe{
+    background-color: #ffa09d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#shoe span{
+    margin-top: 20%;
+}
+#shoe h3{
+    font-size:25px;
+}
+#shoe img{
+    width: 200px;
+    margin-top: 5%;
 }
