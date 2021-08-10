@@ -8,6 +8,10 @@
     background-position: 70% -50px;
 }
 
+header input, .fas.fa-bars, .fas.fa-times{
+    display:none;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -53,6 +57,7 @@ nav ul li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     color: white;
 }
 
@@ -237,7 +242,7 @@ nav ul li {
 .newsletter ul li {
     display: inline-block;
     list-style: none;
-    padding-right: 12px;
+    padding-right: 1rem;
     color: #ababab;
 }
 
@@ -246,12 +251,12 @@ nav ul li {
 }
 
 .newsletter h2{
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 .newsletter fieldset {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     border: none;
     display: flex;
     justify-content: stretch;
@@ -266,8 +271,8 @@ nav ul li {
 }
 
 .newsletter fieldset input {
-    width: 320px;
-    padding: 10px;
+    width: 20rem;
+    padding: 0.6rem;
 }
 
 footer{
@@ -294,5 +299,126 @@ footer span:last-child{
     font-weight: 600;
 }
 
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+    header ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    .newsletter fieldset input {
+        width: 90%;
+    }
+    .newsletter fieldset {
+        padding: 1rem;
+    }
+    .accesories {
+        width: 100%;
+        padding: 1rem;
+    }
+    footer{
+        flex-direction: column;
+        height: 20vh;
+    }
+    footer ul li{
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+    footer ul li:last-child{
+        padding: 0;
+    }
+    .portfolio-section{
+        flex-direction: column;
+        height: 200vh;
+    }
+    .middle{
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 40vh;
+        text-align: center;
+    }
+    .text-card1 {
+        position: absolute;
+        top: 60%;
+        right: 60%;
+        padding-left: 30px;
+        color: white;
+    }
+    .line {
+        margin: 0.5rem auto;
+    }
+    #card4 h3, #card5 h3, #card4 span, #card5 span{
+        color: white;
+    }
 
 
+    .header-icons{
+        display: none;
+    }
+
+    header input, .fas.fa-bars, .fas.fa-times{
+        display:block;
+    }
+
+    .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+        position: absolute;  
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        right: 0.5rem;
+        top: 0.2rem;
+        width: 1.5rem;
+        height: 1.5rem;  
+      }
+       
+      .respmenu .fa-bars, .respmenu .fa-times {
+        font-size: 1.5rem;
+        pointer-events: none;
+      }
+       
+      .respmenu input[type="checkbox"] {
+        opacity: 0; 
+      }
+       
+      .respmenu {
+        color: white;
+        position: absolute; 
+        background: #C3997D;
+        width: 100%;
+        right: 0;
+        top: 0;
+      }
+       
+      .respmenu nav {
+        display: none;
+      }
+       
+      .respmenu input:checked ~ nav {
+        display: block;
+      }
+       
+      .respmenu input:checked ~ .fa-bars {
+        display: none;
+      }
+       
+      .respmenu input:not(:checked) ~ .fa-times {
+        display: none;
+      }
+      header ul li {
+        margin: 0;
+        padding: 0.5rem 0;
+        font-size: 0.8rem;
+    }
+    header ul li:hover {
+        background-color: black;
+    }
+  }
+  
+  @media (max-width: 425px)  {
+    #card4 h3, #card5 h3, #card4 span, #card5 span{
+        color: black;
+    }
+  }
