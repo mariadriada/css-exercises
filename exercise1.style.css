@@ -12,13 +12,14 @@ header{
     display: flex;
     justify-content: space-between;
     height: 10vh;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 100%;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
     align-items: center;
 }
 
 header img {
-    width: 100px;
+    width: 7%;
 }
 
 header ul {
@@ -27,11 +28,11 @@ header ul {
 }
 
 header > ul > li {
-    margin-left: 10px;
+    margin-left: 0.625rem;
 }
 
 ul > li > i{
-    padding-right: 10px;
+    padding-right: 0.625rem;
     border-right: 1px solid red;
     cursor: pointer;
 }
@@ -42,8 +43,19 @@ li:last-child i{
 
 nav > ul > li {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 1.25rem;
     cursor: pointer;
+}
+.respmenu a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    border-bottom: 2px solid #b5936f;
+    max-width: 200px;
+    background: #e2caae;
+    font-variant: small-caps;
+    text-shadow: 1px 1px black;
 }
 
 .containt{
@@ -53,28 +65,29 @@ nav > ul > li {
     justify-content: center;
     flex-direction: column;
     color: white;
+    text-align: center;
 }
 
 .containt > span{
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .containt > h3{
-    font-size: 30px;
-    margin-bottom: 5px;
+    font-size: 1.875rem;
+    margin-bottom: 0.3125rem;
 }
 
 .containt > h1{
-    font-size: 60px;
+    font-size: 3.75rem;
 }
 
 .containt > p{
-    margin-top: 15px;
-    margin-bottom: 30px;
+    margin-top: 0.9375rem;
+    margin-bottom: 1.875rem;
 }
 .containt > button{
     border: none;
-    padding: 12px 40px;
+    padding: 0.75rem 2.5rem;
     cursor: pointer;
 }
 
@@ -109,17 +122,17 @@ nav > ul > li {
 
 .line{
     background-color: white;
-    height: 3px;
-    width: 50px;
-    margin: 15px 15px 15px 0;
-    border-radius: 2px;
+    height: 0.1875rem;
+    width: 3.125rem;
+    margin: 0.9375rem 0.9375rem 0.9375rem 0;
+    border-radius: 0.125rem;
 }
 
 .text-card1{
     position: relative;
     top: 70%;
     color: white;
-    padding-left: 30px;
+    padding-left: 1.875rem;
 }
 
 .text-card1 > h4{
@@ -132,15 +145,16 @@ nav > ul > li {
     justify-content: center;
     flex-direction: column;
     background-color: white;
+    text-align: center;
 }
 
 .minicard1 > span{
-    font-size: 10px;
+    font-size: 0.625rem;
 }
 
 .minicard1 > h2{
-    font-size: 30px;
-    margin-bottom: 35px;
+    font-size: 1.875rem;
+    margin-bottom: 2.1875rem;
 }
 
 .minicard1 > button{
@@ -156,10 +170,12 @@ nav > ul > li {
     align-items: center;
     justify-content: center;
     background-color: #EFEA48;
+    text-align: center;
+    padding: 1rem;
 }
 
 #imgFace{
-    width: auto;
+    width: 125%;
     height: 75%;
     cursor: pointer;
 }
@@ -170,20 +186,21 @@ nav > ul > li {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .minicard3 > span{
-    font-size: 10px;
+    font-size: 0.625rem;
 }
 
 .minicard3 > h2{
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 #imgShoe{
     position: relative;
-    top: 45px;
-    width: auto;
+    top: 2.8125rem;
+    width: 70%;
     height: 50%;
     cursor: pointer;
 }
@@ -194,23 +211,24 @@ nav > ul > li {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
 
 #imgCamera{
     position: relative;
-    top: 45px;
-    width: auto;
+    top: 2.8125rem;
+    width: 75%;
     height: 45%;
     cursor: pointer;
 }
 
 .minicard4 > span{
-    font-size: 10px;
+    font-size: 0.625rem;
 }
 
 .minicard4 > h2{
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 1.875rem;
+    margin-bottom: 1.25rem;
 }
 .accessories-section{
     width: 100%;
@@ -220,7 +238,7 @@ nav > ul > li {
     background-image: url(./resources/exercise3/homero.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: 70% 0;
+    background-position: 90% 0;
 }
 
 .text-container{
@@ -229,34 +247,36 @@ nav > ul > li {
     align-items: center;
     justify-content: center;
     width: 50%;
+    text-align: center;
 }
 
 .text-container > span{
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
 }
 
 .text-container > h2{
-    font-size: 60px;
-    margin-bottom: 10px;
+    font-size: 3.75rem;
+    margin-bottom: 0.625rem;
+
 }
 
 .line2{
     background-color: black;
-    height: 3px;
-    width: 85px;
-    margin: 15px 15px 15px 0;
-    border-radius: 2px;
+    height: 0.1875rem;
+    width: 5.3125rem;
+    margin: 0.9375rem 0.9375rem 0.9375rem 0;
+    border-radius: 0.125rem;
 }
 
 .text-container > p{
     width: 70%;
-    margin-bottom: 40px;
-    text-align: center;
+    margin-bottom: 2.5rem;
+
 }
 
 .text-container > button{
-    width: 190px;
-    height: 50px;
+    width: 30%;
+    height: 10%;
     background-color: gainsboro;
     border: 2px solid black;
     cursor: pointer;
@@ -278,7 +298,7 @@ nav > ul > li {
 }
 
 .container-form > h2{
-    font-size: 50px;
+    font-size: 3.125rem;
     width: 50%;
     text-align: center;
 }
@@ -287,31 +307,32 @@ nav > ul > li {
 }
 
 .form{
-    margin-top: 40px;
-    margin-bottom: 50px;
+    width: 50%;
+    margin-top: 2.5rem;
+    margin-bottom: 3.125rem;
+    display: flex;
 }
 
 .form > input{
-    width: 500px;
-    height: 45px;
-    padding: 10px;
+    width: 70%;
+    height: 2.8125rem;
+    padding: 0.625rem;
     border: 2px solid gray;
 }
 
 .form > button{
     background-color: black;
     color: white;
-    width: 150px;
-    height: 45px;
-    padding: 15px;
+    width: 30%;
+    height: 2.8125rem;
+    padding: 0.9375rem;
     border: 1px solid black;
     cursor: pointer;
-
 }
 
 .icons > span{
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 1.25rem;
     cursor: pointer;
 }
 
@@ -321,26 +342,166 @@ footer{
     display: flex;
     border-top: 3px solid gray;
     align-items: center;
+    flex-flow: row wrap;
+    padding: 12px;
+    justify-content: space-between;
 }
-#footer > span{
-    width: 100%;
-    height: 10vh;
-    cursor: pointer;
-    color: gray;
+footer ul{
+    margin-left: -160px;
+    list-style: none;
+    display: flex;
 }
-#footer > span:nth-of-type(1){
-    margin-left: 10px;
-    margin-right: 380px;
+footer ul li{
+    padding-right: 20px;
+    display: inline-block;
 }
-#footer > span:nth-of-type(2){
-    margin-right: 30px;
-}
-#footer > span:nth-of-type(3){
-    margin-right: 30px;
-}
-#footer > span:nth-of-type(5){
-    margin-left: 540px;
+footer span:last-child{
+    font-weight: bold;
 }
 
 
 
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width:769px){
+    .respmenu{
+        display:none;
+    }
+}
+@media screen and (max-width: 768px) {
+    header{
+        flex-direction: column;
+    }
+
+    header ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    header img{
+        width: 20%;
+    }
+
+    .minicard1 h2 {
+        text-align: center;
+    }
+
+    #imgFace{
+        width: 100%;
+        height: 55%;
+    }
+
+    #imgShoe{
+        width: 83%;
+    }
+
+    #imgCamera{
+        width: 87%;
+        top: 1.8125rem;
+    }
+
+    .accessories-section{
+        background-position: 180% 0;
+    }
+    header > nav{
+        display: none;
+    }
+    header>ul{
+        display: none;
+    }
+    .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+        position: absolute;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        right: 0.5rem;
+        top: 0.2rem;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .respmenu .fa-bars, .respmenu .fa-times {
+        font-size: 1.5rem;
+        pointer-events: none;
+    }
+
+    .respmenu input[type="checkbox"] {
+        opacity: 0;
+    }
+
+    .respmenu {
+        color: white;
+        position: absolute;
+        background:#eaa7a5;
+        right: 0;
+        top: 2.5rem;
+    }
+
+    .respmenu nav {
+        display: none;
+    }
+
+    .respmenu input:checked ~ nav {
+        display: block;
+    }
+
+    .respmenu input:checked ~ .fa-bars {
+        display: none;
+    }
+
+    .respmenu input:not(:checked) ~ .fa-times {
+        display: none;
+    }
+}
+@media screen and (max-width: 576px) {
+    header img{
+        width: 20%;
+    }
+    .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+        position: absolute;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        right: 0.5rem;
+        top: 0.2rem;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .respmenu .fa-bars, .respmenu .fa-times {
+        font-size: 1.5rem;
+        pointer-events: none;
+    }
+
+    .respmenu input[type="checkbox"] {
+        opacity: 0;
+    }
+
+    .respmenu {
+        color: white;
+        position: relative;
+        background:#f9e4b7;
+    }
+
+    .respmenu nav {
+        display: none;
+    }
+
+    .respmenu input:checked ~ nav {
+        display: block;
+    }
+
+    .respmenu input:checked ~ .fa-bars {
+        display: none;
+    }
+
+    .respmenu input:not(:checked) ~ .fa-times {
+        display: none;
+    }
+    header > nav{
+        display: none;
+    }
+    header>ul{
+        display: none;
+    }
+}
