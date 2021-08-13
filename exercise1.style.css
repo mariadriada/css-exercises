@@ -236,7 +236,7 @@ nav > ul > li {
     background-color: gainsboro;
     display: flex;
     background-image: url(./resources/exercise3/homero.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: 90% 0;
 }
@@ -551,6 +551,7 @@ footer span:last-child{
     }
 
     .accessories-section{
+        background-size: cover;
         background-position: -255% 0;
     }
 
