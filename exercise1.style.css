@@ -52,7 +52,7 @@ nav > ul > li {
     display: block;
     padding: 10px 20px;
     border-bottom: 2px solid #b5936f;
-    max-width: 200px;
+    width: 47rem;
     background: #e2caae;
     font-variant: small-caps;
     text-shadow: 1px 1px black;
@@ -98,7 +98,7 @@ nav > ul > li {
     display: flex;
 }
 
-.portfolio-section>.middle{
+.portfolio-section > .middle{
     height: 100%;
 }
 
@@ -236,7 +236,7 @@ nav > ul > li {
     background-color: gainsboro;
     display: flex;
     background-image: url(./resources/exercise3/homero.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: 90% 0;
 }
@@ -374,12 +374,33 @@ footer span:last-child{
         flex-direction: column;
     }
 
-    header ul{
+    nav ul li{
+        display: flex;
         flex-direction: column;
         text-align: center;
     }
+
     header img{
         width: 20%;
+    }
+
+    .portfolio-section{
+        height: 200vh;
+        display: block;
+    }
+
+    .middle{
+        width: 100%;
+        height: 30vh;
+    }
+
+    #card1{
+        height: 80vh;
+        width: 100%;
+    }
+
+    .cards-container{
+        display: block;
     }
 
     .minicard1 h2 {
@@ -387,17 +408,19 @@ footer span:last-child{
     }
 
     #imgFace{
-        width: 100%;
-        height: 55%;
+        width: 35%;
+        height: 90%;
     }
 
     #imgShoe{
-        width: 83%;
+        width: 29%;
+        height: 70%;
+        top: 1rem;
     }
 
     #imgCamera{
-        width: 87%;
-        top: 1.8125rem;
+        width: 25%;
+        top: 1rem;
     }
 
     .accessories-section{
@@ -415,7 +438,7 @@ footer span:last-child{
         margin: 0;
         padding: 0;
         right: 0.5rem;
-        top: 0.2rem;
+        top: 0;
         width: 1.5rem;
         height: 1.5rem;
     }
@@ -452,18 +475,36 @@ footer span:last-child{
     .respmenu input:not(:checked) ~ .fa-times {
         display: none;
     }
+    footer ul{
+        margin-left: -85px;
+    }
 }
+
+
+
+
+
+
+
+
 @media screen and (max-width: 576px) {
     header img{
-        width: 20%;
+        width: 30%;
     }
+    header > nav{
+        display: none;
+    }
+    header>ul{
+        display: none;
+    }
+
     .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
         position: absolute;
         box-sizing: border-box;
         margin: 0;
         padding: 0;
         right: 0.5rem;
-        top: 0.2rem;
+        top: 0;
         width: 1.5rem;
         height: 1.5rem;
     }
@@ -479,8 +520,14 @@ footer span:last-child{
 
     .respmenu {
         color: white;
-        position: relative;
-        background:#f9e4b7;
+        position: absolute;
+        background:#eaa7a5;
+        right: 0;
+        top: 2.5rem;
+    }
+
+    .respmenu a{
+        width: 35rem;
     }
 
     .respmenu nav {
@@ -498,10 +545,35 @@ footer span:last-child{
     .respmenu input:not(:checked) ~ .fa-times {
         display: none;
     }
-    header > nav{
-        display: none;
+
+    .text-container{
+        margin-left: 2rem;
     }
-    header>ul{
-        display: none;
+
+    .accessories-section{
+        background-position: -255% 0;
+    }
+
+    .register-section{
+        height: 80vh;
+    }
+
+    .form button{
+        width: 35%;
+    }
+
+    footer{
+        height: 20vh;
+        flex-direction: column;
+    }
+
+    footer ul{
+        margin-left: 0.9375rem;
+    }
+
+    footer ul li{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
     }
 }
