@@ -79,9 +79,7 @@ nav ul li{
 }
 .middle{
     width: 50%;
-    border: 1px solid black;
     height: 50%;
-
 }
 .cards-container{
     display: flex;
@@ -101,58 +99,91 @@ nav ul li{
     margin: 15px 15px 15px 0;
     border-radius: 2px;
 }
-
 .text-card1{
     position: relative;
     top: 70%;
     padding-left: 30px;
     color: #fff;
-
 }
-
 .text-card1 h4{
     width: 170px;
-    font-size: 25px;
+    font-size: 10px;
     font-weight: bolder;
 }
 
-#women{
+.card2{
     background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-#women h3{
+.card2 h3{
     font-size:25px;
     padding-bottom: 12%;
 }
-#women button{
+.card2 button{
     background-color: #fff;
-    border: 1px solid black;
     padding: 15px 50px;
 }
-#model{
+.card3{
     background-color: yellow;
-    background-image: url(/resources/exercise3/yoshi.png);
+    background-image: url(/resources/exercise3/face.png);
     background-repeat: no-repeat;
     background-size:contain;
-    background-position: 100% 0;
+    background-position-y: 50%;
 }
-#shoe{
+.card4{
     background-color: #ffa09d;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-#shoe span{
+.card4 span{
     margin-top: 20%;
+    font-size: 10px;
 }
-#shoe h3{
+.card4 h3{
     font-size:25px;
 }
-#shoe img{
+.card4 img{
     width: 200px;
     margin-top: 5%;
 }
+.card5{
+    background: linear-gradient(#fff,#fff,#fff,gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card5 span{
+    margin-top: 10%;
+    font-size: 10px;
+}
+.card5 h3{
+    font-size:25px;
+    margin-bottom: 10px;
+}
+.card5 img{
+    width: 200px;
+    margin-top: 5%;
+}
+.accesories-section{
+    height: 70vh;
+    width: 100vw;
+    display:flex;
+    background-color: rgb(247, 241, 241);
+}
+.card6{
+    width: 50%;
+    border: 1px solid black;
+    height: 100%;
+}
+.card7{
+    width: 50%;
+    border: 1px solid black;
+    height: 100%;
+}
+
