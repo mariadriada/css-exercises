@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #9cfcf0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.platform1,
+.platform2 {
+  display: flex;
+  position: absolute;
+}
+
+.platform1 {
+  top: 70%;
+  left: 2px;
+}
+
+.platform2 {
+  top: 50%;
+  left: 12%;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: #fb983b;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+.obstacle1,
+.obstacle2,
+.obstacle3 {
+  border: 2px solid black;
+  box-shadow: 24px 24px 4px black;
+  bottom: 0;
+  border-radius: 12px;
+  position: absolute;
+  width: 200px;
+}
+
+.obstacle1 {
+  height: 200px;
+  background: linear-gradient(0.25turn, #fbbdb0 93%, #ef9b58);
+  left: 15%;
+}
+
+.obstacle2 {
+  height: 350px;
+  background: linear-gradient(0.25turn, #a8e4fe 93%, #56bceb);
+  left: 22%;
+}
+
+.obstacle3 {
+  height: 200px;
+  background-color: #4cdc47;
+  right: -5%;
+}
+
+.screw1,
+.screw2,
+.screw3,
+.screw4 {
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 24px;
+  background-color: #a6c6be;
+  position: absolute;
+}
+
+.screw1 {
+  top: 2%;
+  left: 2%;
+}
+
+.screw2 {
+  top: 2%;
+  right: 2%;
+}
+
+.screw3 {
+  bottom: 2%;
+  right: 2%;
+}
+
+.screw4 {
+  bottom: 2%;
+  left: 2%;
+}
+
+.inner-circle1,
+.inner-circle2 {
+  width: 6px;
+  height: 6px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background-color: #a6c6be;
+  position: absolute;
+}
+
+.inner-circle1 {
+  bottom: 15%;
+  left: 20%;
+}
+
+.inner-circle2 {
+  top: 15%;
+  right: 20%;
+}
