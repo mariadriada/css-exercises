@@ -1,0 +1,197 @@
+.main-section {
+    background-color: #F3ACA8;
+    width: 100%;
+    height: 100vh;
+    background-image: url('resources/exercise3/mario.png');
+    background-size: contain; /**/
+    background-repeat: no-repeat;
+    background-position: 75% -30px;
+}
+
+header {
+    display: flex; /* Always applied to the parent element*/
+    justify-content: space-around;
+    height: 10vh;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+
+header img {
+    width: 100px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    margin-left: 10px;
+}
+
+ul li i {
+    padding-right: 10px;
+    border-right: 1px solid black;
+    cursor: pointer;
+}
+
+li:last-child i {
+    border-right: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    height: 90vh;
+    color: white;
+}
+
+.contents > span {
+    font-size: 14px;
+
+}
+
+.contents > h3 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.contents > h1 {
+    font-size: 60px;
+}
+
+.contents > p {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.contents > button {
+    border: none;
+    padding: 12px 40px;
+    cursor: pointer;
+}
+
+/* PORTFOLIO SECTION */
+
+.portfolio-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.portfolio-section > .middle {
+    height: 100%;
+}
+
+.middle {
+    width: 50%;
+    /* border: 1px solid red; */
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#middle1 {
+    background-color: #C3997D;
+    background-image: url('resources/exercise3/silueta.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 70% 0;
+}
+
+.line {
+    background-color: white;
+    height: 3px;
+    width: 50px;
+    margin: 15px 15px 15px 0;
+    border-radius: 2px;
+}
+
+.text-middle1 {
+    /* border: 1px solid black; */
+    position: relative;
+    top: 70%;
+    padding-left: 30px;
+    color: white;
+}
+
+.text-middle1 h4 {
+    width: 100px;
+}
+
+/* ACCESORIES SECTION */
+.accesories-section {
+    background-color: lightgray;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+
+.accesories-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.accesories-content > p {
+    width: 50%;
+    text-align: center;
+}
+
+.accesories-content > button {
+    border: none;
+    padding: 12px 40px;
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+
+/* SINGUP SECTION */
+.singup-section {
+    width: 100%;
+    height: 60vh;
+}
+
+.singup-section input {
+
+}
+
+.singup-section > button {
+    background-color: black;
+    color: white;
+    padding: 4px;
+
+}
+
+/* FOOTER */
+
+footer {
+    display: flex; /* Always applied to the parent element*/
+    justify-content: space-around;
+    height: 10vh;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    border-top: 4px solid lightgray;
+    align-items: center;
+}
+
+#copyright {
+    font-size: 12px;
+    width: 30%;
+    text-align: left;
+}
