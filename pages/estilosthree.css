@@ -86,25 +86,95 @@ cursor: pointer;
 }
 
 .portfolio-section{
-    width:100%;
+    width:100vw;
     height:100vh;
+    /*background-color: teal;*/
     display: flex;
 }
 
 
 .portfolio-section > .middle{
   height: 100%;
+  width: 100%;
   
 }
 
  .middle{
     width: 50%;
-    border: 1px solid red;
     height: 50%;
 }
 
 .cards-container{
+  
   display:flex;
   flex-wrap: wrap;
   
+}
+
+
+.middle > .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    color:black;
+}
+
+
+
+.card button{
+  background-color:white;
+  padding: 12px;
+  cursor: pointer;
+}
+
+
+.cards-container #gafas{
+  background-color:yellow;
+  background-image: url("../resources/exercise3/face.png");
+  background-size:80% 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.cards-container #shoes{
+  background-color: #EAB8A5;
+  background-image: url("../resources/exercise3/shoe.png");
+  background-size:40% 40%;
+  background-repeat: no-repeat;
+  background-position:bottom;
+
+}
+.cards-container #purse{
+  background-image: url("../resources/exercise3/camera.png");
+  background-size:40% 40%;
+  background-repeat: no-repeat;
+  background-position:bottom;
+
+}
+
+#card1{
+  background-color: #D6A97F;
+  background-image: url("../resources/exercise3/silueta.png");
+  background-repeat: no-repeat;
+  background-position: 70% 0%;
+}
+
+
+.line{
+  background-color: white;
+  height: 4px;
+  width: 40px;
+  margin: 15px 15px 15px 0;
+  border-radius: 2px;
+}
+
+.collection{
+  font-size: 1.3rem;
+  color: white;
+  width: 20%;
+  position: relative;
+  top: 70%;
+  padding-left: 50px;
 }
