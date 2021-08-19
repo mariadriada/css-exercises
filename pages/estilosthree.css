@@ -31,14 +31,12 @@
 
   ul li i{
       padding-right: 10px;
-      border-right: 1px solid red;
+     
       cursor: pointer;
   }
   
-
   li:last-child i{
 border-right: none;
-
 
   }
   
@@ -88,7 +86,6 @@ cursor: pointer;
 .portfolio-section{
     width:100vw;
     height:100vh;
-    /*background-color: teal;*/
     display: flex;
 }
 
@@ -111,6 +108,31 @@ cursor: pointer;
   
 }
 
+#card1{
+  background-color: #D6A97F;
+  background-image: url("../resources/exercise3/silueta.png");
+  background-repeat: no-repeat;
+  background-position: 70% 0%;
+}
+
+.collection{
+  font-size: 1.3rem;
+  color: white;
+  width: 20%;
+  position: relative;
+  top: 70%;
+  padding-left: 50px;
+}
+
+
+
+.line{
+  background-color: white;
+  height: 4px;
+  width: 40px;
+  margin: 15px 15px 15px 0;
+  border-radius: 2px;
+}
 
 .middle > .card{
     display: flex;
@@ -119,7 +141,6 @@ cursor: pointer;
     justify-content:center;
     color:black;
 }
-
 
 
 .card button{
@@ -146,35 +167,126 @@ cursor: pointer;
   background-position:bottom;
 
 }
+
+#shoes .text-shoes{
+  text-align: center;
+  position: relative;
+  margin-bottom: 50%;
+
+}
+
 .cards-container #purse{
   background-image: url("../resources/exercise3/camera.png");
   background-size:40% 40%;
   background-repeat: no-repeat;
-  background-position:bottom;
+  background-position-y: 95%;
+  background-position-x: 50%;
 
 }
 
-#card1{
-  background-color: #D6A97F;
-  background-image: url("../resources/exercise3/silueta.png");
-  background-repeat: no-repeat;
-  background-position: 70% 0%;
-}
-
-
-.line{
-  background-color: white;
-  height: 4px;
-  width: 40px;
-  margin: 15px 15px 15px 0;
-  border-radius: 2px;
-}
-
-.collection{
-  font-size: 1.3rem;
-  color: white;
-  width: 20%;
+#purse .text-purse{
+  text-align: center;
   position: relative;
-  top: 70%;
-  padding-left: 50px;
+  margin-bottom: 50%;
+}
+
+
+.accesories{
+  background-color:#F4F6F6;
+  width:100vw;
+  height:100vh;
+  background-image:url("../resources/exercise3/yoshi.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position:right;
+  display: flex;
+
+}
+
+
+.rayita{
+  background-color: black;
+  height: 4px;
+  width: 200px;
+  margin: 0px 0px 0px 84px;
+  border-radius: 2px
+}
+
+.accesories button{
+  background-color:white;
+  padding:12px 40px;
+  background-color: #F4F6F6;
+  cursor: pointer;
+}
+
+.texto{
+  color: black;
+  height: 60%;
+  text-align: center;
+  position: relative;
+  top: 30%;
+  left: 15%;
+}
+
+.accesories h5{
+  font-size: 3rem;
+  margin: 30px 0px 34px 0px;
+}
+
+.accesories p{
+font-size: 1.5rem;
+}
+
+.signup{
+  
+  width:100vw;
+  height:100vh;
+  display: flex;
+}
+
+
+.contenedor-texto{
+  
+  height: 20%;
+  position: relative;
+  left: 35%;
+  top: 30%;
+  text-align: center;
+}
+
+.contenedor-texto >p{
+  font-size: 2rem;
+}
+
+.contenedor-texto p span{
+  color: red;
+}
+.contenedor-texto button{
+  background-color:black ;
+  color: white;
+  padding: 12px 30px;
+  margin-left:-5px ;
+}
+
+#email{
+  width:60% ;
+  height: 27%;
+  
+}
+
+.list{
+  list-style: none;
+  display:inline-flex;
+  
+}
+
+.list2 {
+position: relative;
+padding: 10% 10% 20% 0%;
+
+}
+
+.list2 li{
+  padding-left: 30px;
+  color:#D7DBDD ;
 }
