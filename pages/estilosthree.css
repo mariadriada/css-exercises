@@ -266,6 +266,7 @@ font-size: 1.5rem;
   color: white;
   padding: 12px 30px;
   margin-left:-5px ;
+  cursor: pointer;
 }
 
 #email{
@@ -288,5 +289,9 @@ padding: 10% 10% 20% 0%;
 
 .list2 li{
   padding-left: 30px;
-  color:#D7DBDD ;
+  color:#AAB7B8;
 }
+
+
+
+
