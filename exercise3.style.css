@@ -1,0 +1,245 @@
+.main-section {
+  background-color: #f4aeac;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/resources/exercise3/mario.png);
+  background-size: 35% 106%;
+  background-repeat: no-repeat;
+  background-position: 73% 40%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 15px;
+}
+
+header img {
+  width: 100px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header > ul > li {
+  margin-left: 10px;
+}
+
+ul > li > i {
+  padding-right: 10px;
+  border-right: 1px solid black;
+  cursor: pointer;
+}
+
+li:last-child i {
+  border-right: none;
+}
+
+nav > ul > li {
+  display: inline-block;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.containt {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.containt > span {
+  font-size: 14px;
+}
+
+.containt > h3 {
+  font-size: 30px;
+}
+.containt > h1 {
+  font-size: 60px;
+}
+.containt > h1::first-letter {
+  text-transform: capitalize;
+}
+.containt > button {
+  font-size: 13px;
+  margin-top: 50px;
+  padding: 1% 3%;
+  border: none;
+  cursor: pointer;
+}
+.portfolio-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.portfolio-section > .middle {
+  height: 100%;
+}
+
+.middle {
+  width: 50%;
+  height: 50%;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square-text {
+  width: 20%;
+  height: 30%;
+  position: absolute;
+  top: 170%;
+  left: 5%;
+  color: white;
+}
+
+#card1 {
+  background-color: burlywood;
+  background-image: url(/resources/exercise3/silueta.png);
+  background-repeat: no-repeat;
+  background-position: 70% 10%;
+}
+.line {
+  background-color: white;
+  height: 1px;
+  width: 40px;
+  margin: 15px 15px 15px 0px;
+}
+
+#one {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#one button {
+  padding: 3% 10% 3% 10%;
+  margin-top: 10%;
+  cursor: pointer;
+}
+
+#two {
+  background-color: aquamarine;
+  background-image: url(/resources/exercise3/yoshi.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 90% 1%;
+}
+#three {
+  background-color: #f4aeac;
+  background-image: url(/resources/exercise3/shoe.png);
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: 50% 100%;
+}
+
+.three-text {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  top: 20%;
+  left: 25%;
+  text-align: center;
+}
+.three-text h6 {
+  margin-bottom: 5%;
+  font-size: 10px;
+}
+#four {
+  background-image: url(/resources/exercise3/camera.png);
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: 50% 100%;
+}
+
+.four-text {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  top: 20%;
+  left: 25%;
+  text-align: center;
+}
+.four-text h6 {
+  margin-bottom: 5%;
+  font-size: 10px;
+}
+
+.her-section {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/resources/exercise3/face.png);
+  background-repeat: no-repeat;
+  background-size: 53%;
+  background-position: 90%;
+  display: flex;
+}
+.her-section > .just-middle {
+  height: 100%;
+  width: 50%;
+}
+.containt-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 30%;
+}
+
+.line2 {
+  background-color: black;
+  height: 1px;
+  width: 100px;
+  margin: 15px 15px 15px 0px;
+}
+.containt-2 h6 {
+  margin-bottom: 3%;
+}
+.containt-2 h1 {
+  font-size: 50px;
+}
+.containt-2 p {
+  margin: 2% 0% 5% 0%;
+  text-align: center;
+}
+.containt-2 button {
+  padding: 3% 10% 3% 10%;
+  cursor: pointer;
+}
+.footer-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-section span {
+  color: red;
+}
+.input {
+  display: flex;
+}
+
+.footer-section input {
+  padding: 5% 10% 1% 10%;
+  margin-top: 15%;
+}
+.input button {
+  padding: 5% 5% 5% 5%;
+  background-color: black;
+  color: white;
+  margin-top: 15%;
+}
